@@ -1,0 +1,34 @@
+# Ignore node modules and dependencies
+node_modules/
+package-lock.json
+
+# Ignore environment files (secrets & config)
+.env
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+dump.rdb
+mongod.lock
+data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE & editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore Windows system files
+desktop.ini
+
+/dump/
